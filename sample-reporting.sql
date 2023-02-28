@@ -1133,7 +1133,7 @@ wwv_flow_imp_shared.create_app_static_file(
 );
 end;
 /
-prompt --application/shared_components/files/icons_app_icon_512_pngV
+prompt --application/shared_components/files/icons_app_icon_512_pngVC
 begin
 wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;
 wwv_flow_imp.g_varchar2_table(1) := '89504E470D0A1A0A0000000D4948445200000200000002000806000000F478D4FA000000017352474200AECE1CE90000200049444154785EEDDD0BB0DE757DE7F1EFF39C739E7392102E0521DC0A885C2CF1820A4241506AA1BAADA23868B5DDA9334BAB';
