@@ -7,12 +7,12 @@ wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2022.10.07'
 ,p_release=>'22.2.0'
 ,p_default_workspace_id=>3211241
-,p_default_application_id=>105
-,p_default_id_offset=>5008810653734757
+,p_default_application_id=>106
+,p_default_id_offset=>10054751398676642
 ,p_default_owner=>'TESTING'
 );
 wwv_flow_imp_shared.create_template(
- p_id=>wwv_flow_imp.id(1577196687214032074)
+ p_id=>wwv_flow_imp.id(1582242627958973959)
 ,p_theme_id=>42
 ,p_name=>'Login'
 ,p_internal_name=>'LOGIN'
@@ -138,8 +138,8 @@ wwv_flow_imp_shared.create_template(
 ,p_reference_id=>2099711150063350616
 );
 wwv_flow_imp_shared.create_page_tmpl_display_point(
- p_id=>wwv_flow_imp.id(703525893241064244)
-,p_page_template_id=>wwv_flow_imp.id(1577196687214032074)
+ p_id=>wwv_flow_imp.id(708571833986006129)
+,p_page_template_id=>wwv_flow_imp.id(1582242627958973959)
 ,p_name=>'Background Image'
 ,p_placeholder=>'BACKGROUND_IMAGE'
 ,p_has_grid_support=>false
@@ -150,8 +150,8 @@ wwv_flow_imp_shared.create_page_tmpl_display_point(
 ,p_max_fixed_grid_columns=>12
 );
 wwv_flow_imp_shared.create_page_tmpl_display_point(
- p_id=>wwv_flow_imp.id(703526386039064244)
-,p_page_template_id=>wwv_flow_imp.id(1577196687214032074)
+ p_id=>wwv_flow_imp.id(708572326784006129)
+,p_page_template_id=>wwv_flow_imp.id(1582242627958973959)
 ,p_name=>'Content Body'
 ,p_placeholder=>'BODY'
 ,p_has_grid_support=>true
@@ -162,8 +162,8 @@ wwv_flow_imp_shared.create_page_tmpl_display_point(
 ,p_max_fixed_grid_columns=>12
 );
 wwv_flow_imp_shared.create_page_tmpl_display_point(
- p_id=>wwv_flow_imp.id(703526854026064244)
-,p_page_template_id=>wwv_flow_imp.id(1577196687214032074)
+ p_id=>wwv_flow_imp.id(708572794771006129)
+,p_page_template_id=>wwv_flow_imp.id(1582242627958973959)
 ,p_name=>'Body Header'
 ,p_placeholder=>'REGION_POSITION_01'
 ,p_has_grid_support=>false
@@ -173,8 +173,8 @@ wwv_flow_imp_shared.create_page_tmpl_display_point(
 ,p_glv_new_row=>true
 );
 wwv_flow_imp_shared.create_page_tmpl_display_point(
- p_id=>wwv_flow_imp.id(703527390337064245)
-,p_page_template_id=>wwv_flow_imp.id(1577196687214032074)
+ p_id=>wwv_flow_imp.id(708573331082006130)
+,p_page_template_id=>wwv_flow_imp.id(1582242627958973959)
 ,p_name=>'Body Footer'
 ,p_placeholder=>'REGION_POSITION_02'
 ,p_has_grid_support=>false

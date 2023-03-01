@@ -7,8 +7,8 @@ wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2022.10.07'
 ,p_release=>'22.2.0'
 ,p_default_workspace_id=>3211241
-,p_default_application_id=>105
-,p_default_id_offset=>5008810653734757
+,p_default_application_id=>106
+,p_default_id_offset=>10054751398676642
 ,p_default_owner=>'TESTING'
 );
 wwv_flow_imp_page.create_page(
@@ -30,10 +30,10 @@ wwv_flow_imp_page.create_page(
 ,p_last_upd_yyyymmddhh24miss=>'20220927001305'
 );
 wwv_flow_imp_page.create_page_plug(
- p_id=>wwv_flow_imp.id(1304693159740696504)
+ p_id=>wwv_flow_imp.id(1309739100485638389)
 ,p_plug_name=>'Overview'
 ,p_region_template_options=>'#DEFAULT#:t-ContentBlock--h2:js-headingLevel-2'
-,p_plug_template=>wwv_flow_imp.id(1125247982745189672)
+,p_plug_template=>wwv_flow_imp.id(1130293923490131557)
 ,p_plug_display_sequence=>10
 ,p_plug_source=>'<p>This page demonstrates interactive report column highlighting features.  Developers cannot set interactive report highlighting by editing the page, it must be set by running the page.  Both developers and end users can set column highlighting.  To'
 ||' set highlighting, click the <strong>Actions</strong> pull down menu, then select <strong>Highlight</strong>.  When a column matches a specific condition, you can highlight at the row or column level.  The example below highlights the report <strong>'
@@ -45,10 +45,10 @@ wwv_flow_imp_page.create_page_plug(
 ,p_attribute_03=>'N'
 );
 wwv_flow_imp_page.create_page_plug(
- p_id=>wwv_flow_imp.id(2181160678403017834)
+ p_id=>wwv_flow_imp.id(2186206619147959719)
 ,p_plug_name=>'Container'
 ,p_region_template_options=>'#DEFAULT#:t-Region--noPadding:t-Region--removeHeader js-removeLandmark:t-Region--scrollBody'
-,p_plug_template=>wwv_flow_imp.id(1577233735522032150)
+,p_plug_template=>wwv_flow_imp.id(1582279676266974035)
 ,p_plug_display_sequence=>20
 ,p_include_in_reg_disp_sel_yn=>'Y'
 ,p_plug_query_options=>'DERIVED_REPORT_COLUMNS'
@@ -56,11 +56,11 @@ wwv_flow_imp_page.create_page_plug(
 ,p_attribute_02=>'HTML'
 );
 wwv_flow_imp_page.create_page_plug(
- p_id=>wwv_flow_imp.id(1324415264312860309)
+ p_id=>wwv_flow_imp.id(1329461205057802194)
 ,p_plug_name=>'SQL Source'
-,p_parent_plug_id=>wwv_flow_imp.id(2181160678403017834)
+,p_parent_plug_id=>wwv_flow_imp.id(2186206619147959719)
 ,p_region_template_options=>'#DEFAULT#:is-collapsed:t-Region--noBorder:t-Region--scrollBody'
-,p_plug_template=>wwv_flow_imp.id(1577229571783032141)
+,p_plug_template=>wwv_flow_imp.id(1582275512527974026)
 ,p_plug_display_sequence=>40
 ,p_plug_new_grid_row=>false
 ,p_plug_new_grid_column=>false
@@ -70,12 +70,12 @@ wwv_flow_imp_page.create_page_plug(
 ,p_attribute_01=>'projects_report'
 );
 wwv_flow_imp_page.create_page_plug(
- p_id=>wwv_flow_imp.id(2671456585693803185)
+ p_id=>wwv_flow_imp.id(2676502526438745070)
 ,p_plug_name=>'Projects'
 ,p_region_name=>'projects_report'
-,p_parent_plug_id=>wwv_flow_imp.id(2181160678403017834)
+,p_parent_plug_id=>wwv_flow_imp.id(2186206619147959719)
 ,p_region_template_options=>'#DEFAULT#:t-IRR-region--noBorders'
-,p_plug_template=>wwv_flow_imp.id(1577232186606032145)
+,p_plug_template=>wwv_flow_imp.id(1582278127350974030)
 ,p_plug_display_sequence=>30
 ,p_plug_display_point=>'SUB_REGIONS'
 ,p_query_type=>'SQL'
@@ -101,7 +101,7 @@ wwv_flow_imp_page.create_page_plug(
 ,p_pagination_display_position=>'BOTTOM_RIGHT'
 );
 wwv_flow_imp_page.create_worksheet(
- p_id=>wwv_flow_imp.id(2671456787249803191)
+ p_id=>wwv_flow_imp.id(2676502727994745076)
 ,p_name=>'Projects'
 ,p_max_row_count=>'100000'
 ,p_max_row_count_message=>'This query returns more than #MAX_ROW_COUNT# rows, please filter your data to ensure complete results.'
@@ -125,7 +125,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_internal_uid=>2024022530411407526
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(2671456882809803193)
+ p_id=>wwv_flow_imp.id(2676502823554745078)
 ,p_db_column_name=>'PROJECT'
 ,p_display_order=>1
 ,p_column_identifier=>'A'
@@ -138,7 +138,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(2671456964331803193)
+ p_id=>wwv_flow_imp.id(2676502905076745078)
 ,p_db_column_name=>'TASKS'
 ,p_display_order=>2
 ,p_column_identifier=>'B'
@@ -153,7 +153,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(2671457062656803194)
+ p_id=>wwv_flow_imp.id(2676503003401745079)
 ,p_db_column_name=>'FIRST_START_DATE'
 ,p_display_order=>3
 ,p_column_identifier=>'C'
@@ -164,7 +164,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(2671457188985803194)
+ p_id=>wwv_flow_imp.id(2676503129730745079)
 ,p_db_column_name=>'LAST_END_DATE'
 ,p_display_order=>4
 ,p_column_identifier=>'D'
@@ -175,7 +175,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(2671457283331803194)
+ p_id=>wwv_flow_imp.id(2676503224076745079)
 ,p_db_column_name=>'OPEN'
 ,p_display_order=>5
 ,p_column_identifier=>'E'
@@ -190,7 +190,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(2671457370204803194)
+ p_id=>wwv_flow_imp.id(2676503310949745079)
 ,p_db_column_name=>'CLOSED'
 ,p_display_order=>6
 ,p_column_identifier=>'F'
@@ -205,7 +205,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(2671457488972803194)
+ p_id=>wwv_flow_imp.id(2676503429717745079)
 ,p_db_column_name=>'PENDING'
 ,p_display_order=>7
 ,p_column_identifier=>'G'
@@ -220,7 +220,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(2671457577256803194)
+ p_id=>wwv_flow_imp.id(2676503518001745079)
 ,p_db_column_name=>'ON_HOLD'
 ,p_display_order=>8
 ,p_column_identifier=>'H'
@@ -235,7 +235,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(2671457681801803194)
+ p_id=>wwv_flow_imp.id(2676503622546745079)
 ,p_db_column_name=>'ASSIGNEES'
 ,p_display_order=>9
 ,p_column_identifier=>'I'
@@ -248,7 +248,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(2671457758642803194)
+ p_id=>wwv_flow_imp.id(2676503699387745079)
 ,p_db_column_name=>'TOTAL_COST'
 ,p_display_order=>10
 ,p_column_identifier=>'J'
@@ -261,7 +261,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(2671457863881803195)
+ p_id=>wwv_flow_imp.id(2676503804626745080)
 ,p_db_column_name=>'TOTAL_BUDGET'
 ,p_display_order=>11
 ,p_column_identifier=>'K'
@@ -274,7 +274,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(2671457976088803195)
+ p_id=>wwv_flow_imp.id(2676503916833745080)
 ,p_db_column_name=>'COST_VS_BUDGET'
 ,p_display_order=>12
 ,p_column_identifier=>'L'
@@ -287,7 +287,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_rpt(
- p_id=>wwv_flow_imp.id(2671458082197803195)
+ p_id=>wwv_flow_imp.id(2676504022942745080)
 ,p_application_user=>'APXWS_DEFAULT'
 ,p_report_seq=>10
 ,p_report_alias=>'20240239'
@@ -298,8 +298,8 @@ wwv_flow_imp_page.create_worksheet_rpt(
 ,p_sum_columns_on_break=>'TOTAL_COST:TOTAL_BUDGET:COST_VS_BUDGET'
 );
 wwv_flow_imp_page.create_worksheet_condition(
- p_id=>wwv_flow_imp.id(2671479766832843100)
-,p_report_id=>wwv_flow_imp.id(2671458082197803195)
+ p_id=>wwv_flow_imp.id(2676525707577784985)
+,p_report_id=>wwv_flow_imp.id(2676504022942745080)
 ,p_name=>'Over Budget'
 ,p_condition_type=>'HIGHLIGHT'
 ,p_allow_delete=>'Y'
@@ -313,8 +313,8 @@ wwv_flow_imp_page.create_worksheet_condition(
 ,p_row_bg_color=>'#FF7755'
 );
 wwv_flow_imp_page.create_worksheet_condition(
- p_id=>wwv_flow_imp.id(2671479880480843100)
-,p_report_id=>wwv_flow_imp.id(2671458082197803195)
+ p_id=>wwv_flow_imp.id(2676525821225784985)
+,p_report_id=>wwv_flow_imp.id(2676504022942745080)
 ,p_name=>'Expensive Projects'
 ,p_condition_type=>'HIGHLIGHT'
 ,p_allow_delete=>'Y'
@@ -328,25 +328,25 @@ wwv_flow_imp_page.create_worksheet_condition(
 ,p_column_bg_color=>'#FFFF99'
 );
 wwv_flow_imp_page.create_page_plug(
- p_id=>wwv_flow_imp.id(2671458483761803197)
+ p_id=>wwv_flow_imp.id(2676504424506745082)
 ,p_plug_name=>'Highlighting'
 ,p_region_template_options=>'#DEFAULT#:t-BreadcrumbRegion--useBreadcrumbTitle'
 ,p_component_template_options=>'#DEFAULT#'
-,p_plug_template=>wwv_flow_imp.id(1577236376031032152)
+,p_plug_template=>wwv_flow_imp.id(1582282316775974037)
 ,p_plug_display_sequence=>40
 ,p_plug_display_point=>'REGION_POSITION_01'
-,p_menu_id=>wwv_flow_imp.id(6277086108197191737)
+,p_menu_id=>wwv_flow_imp.id(6282132048942133622)
 ,p_plug_source_type=>'NATIVE_BREADCRUMB'
-,p_menu_template_id=>wwv_flow_imp.id(1577256840593032229)
+,p_menu_template_id=>wwv_flow_imp.id(1582302781337974114)
 );
 wwv_flow_imp_page.create_page_button(
- p_id=>wwv_flow_imp.id(2671458276669803196)
+ p_id=>wwv_flow_imp.id(2676504217414745081)
 ,p_button_sequence=>10
-,p_button_plug_id=>wwv_flow_imp.id(2671456585693803185)
+,p_button_plug_id=>wwv_flow_imp.id(2676502526438745070)
 ,p_button_name=>'RESET_REPORT'
 ,p_button_action=>'REDIRECT_PAGE'
 ,p_button_template_options=>'#DEFAULT#'
-,p_button_template_id=>wwv_flow_imp.id(1577255991144032222)
+,p_button_template_id=>wwv_flow_imp.id(1582301931888974107)
 ,p_button_image_alt=>'Reset'
 ,p_button_position=>'RIGHT_OF_IR_SEARCH_BAR'
 ,p_button_redirect_url=>'f?p=&APP_ID.:7:&SESSION.::&DEBUG.:RP,RIR::'

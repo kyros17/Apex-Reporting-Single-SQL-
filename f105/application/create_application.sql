@@ -1,21 +1,21 @@
 prompt --application/create_application
 begin
 --   Manifest
---     FLOW: 105
+--     FLOW: 106
 --   Manifest End
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2022.10.07'
 ,p_release=>'22.2.0'
 ,p_default_workspace_id=>3211241
-,p_default_application_id=>105
-,p_default_id_offset=>5008810653734757
+,p_default_application_id=>106
+,p_default_id_offset=>10054751398676642
 ,p_default_owner=>'TESTING'
 );
 wwv_flow_imp.create_flow(
  p_id=>wwv_flow.g_flow_id
 ,p_owner=>nvl(wwv_flow_application_install.get_schema,'TESTING')
 ,p_name=>nvl(wwv_flow_application_install.get_application_name,'Sample Reporting')
-,p_alias=>nvl(wwv_flow_application_install.get_application_alias,'A781020211201055214259')
+,p_alias=>nvl(wwv_flow_application_install.get_application_alias,'A781020211201055214259106')
 ,p_application_group=>wwv_flow_imp.id(4100703443922514)
 ,p_application_group_name=>'21.1 Sample Apps'
 ,p_page_view_logging=>'YES'
@@ -33,7 +33,7 @@ wwv_flow_imp.create_flow(
 '1.0.9 -> 1.0.10: Changed Authentication scheme to use new "ORA_WWV_PACKAGED_APPLICATIONS" cookie',
 '1.0.11 -> 1.0.12: Added page 27 "Use Cases - String Functions" and associated list entry to use cases list on page 9.'))
 ,p_authentication=>'PLUGIN'
-,p_authentication_id=>wwv_flow_imp.id(6277084807346191727)
+,p_authentication_id=>wwv_flow_imp.id(6282130748091133612)
 ,p_application_tab_set=>1
 ,p_logo_type=>'T'
 ,p_logo_text=>'Sample Reporting'
@@ -57,8 +57,8 @@ wwv_flow_imp.create_flow(
 ,p_substitution_value_01=>'Sample Reporting'
 ,p_substitution_string_02=>'GETTING_STARTED_URL'
 ,p_substitution_value_02=>'http://www.oracle.com/technetwork/developer-tools/apex/index.html'
-,p_last_updated_by=>'DANIEL'
-,p_last_upd_yyyymmddhh24miss=>'20221102135653'
+,p_last_updated_by=>'IZRI'
+,p_last_upd_yyyymmddhh24miss=>'20230301105058'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>10
 ,p_print_server_type=>'INSTANCE'

@@ -1,14 +1,14 @@
 prompt --application/shared_components/files/reports_usecases_jpg
 begin
 --   Manifest
---     APP STATIC FILES: 105
+--     APP STATIC FILES: 106
 --   Manifest End
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2022.10.07'
 ,p_release=>'22.2.0'
 ,p_default_workspace_id=>3211241
-,p_default_application_id=>105
-,p_default_id_offset=>5008810653734757
+,p_default_application_id=>106
+,p_default_id_offset=>10054751398676642
 ,p_default_owner=>'TESTING'
 );
 wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;
@@ -129,7 +129,7 @@ wwv_flow_imp.g_varchar2_table(114) := '401D15C049B68E28B969B45C48B2047914CAA730B
 wwv_flow_imp.g_varchar2_table(115) := 'CE18ABE87495886A57D9C0E02FC9BAFF0023F20C039375FE47E4180726EBFC8FC8300E4DD7F91F90601C9BAFF23F20C039375FE47E4180726EBFC8FC8300E4DD7F91F90601C9BAFF0023F20C039375FE47E4180726EBFC8FC8300E4DD7F91F90601C9BAF';
 wwv_flow_imp.g_varchar2_table(116) := 'F23F20C039375FE47E4180726EBFC8FC8300682E594837191143DC180D9142A851C14003E6C07FFFD9';
 wwv_flow_imp_shared.create_app_static_file(
- p_id=>wwv_flow_imp.id(948277877622024595)
+ p_id=>wwv_flow_imp.id(953323818366966480)
 ,p_file_name=>'reports_usecases.jpg'
 ,p_mime_type=>'image/jpeg'
 ,p_file_content => wwv_flow_imp.varchar2_to_blob(wwv_flow_imp.g_varchar2_table)

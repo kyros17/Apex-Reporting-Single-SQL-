@@ -7,17 +7,17 @@ wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2022.10.07'
 ,p_release=>'22.2.0'
 ,p_default_workspace_id=>3211241
-,p_default_application_id=>105
-,p_default_id_offset=>5008810653734757
+,p_default_application_id=>106
+,p_default_id_offset=>10054751398676642
 ,p_default_owner=>'TESTING'
 );
 wwv_flow_imp_shared.create_list(
- p_id=>wwv_flow_imp.id(1304840358457229007)
+ p_id=>wwv_flow_imp.id(1309886299202170892)
 ,p_name=>'String Functions'
 ,p_list_status=>'PUBLIC'
 );
 wwv_flow_imp_shared.create_list_item(
- p_id=>wwv_flow_imp.id(1304840566468229007)
+ p_id=>wwv_flow_imp.id(1309886507213170892)
 ,p_list_item_display_sequence=>10
 ,p_list_item_link_text=>'substr()'
 ,p_list_item_link_target=>'f?p=&APP_ID.:27:&SESSION.::&DEBUG.::P27_FUNCTION:SUBSTR:'
@@ -26,7 +26,7 @@ wwv_flow_imp_shared.create_list_item(
 ,p_list_item_current_language=>'PLSQL'
 );
 wwv_flow_imp_shared.create_list_item(
- p_id=>wwv_flow_imp.id(1304840864713229007)
+ p_id=>wwv_flow_imp.id(1309886805458170892)
 ,p_list_item_display_sequence=>20
 ,p_list_item_link_text=>'instr()'
 ,p_list_item_link_target=>'f?p=&APP_ID.:27:&SESSION.::&DEBUG.::P27_FUNCTION:INSTR:'
@@ -35,7 +35,7 @@ wwv_flow_imp_shared.create_list_item(
 ,p_list_item_current_language=>'PLSQL'
 );
 wwv_flow_imp_shared.create_list_item(
- p_id=>wwv_flow_imp.id(1304841178771229008)
+ p_id=>wwv_flow_imp.id(1309887119516170893)
 ,p_list_item_display_sequence=>30
 ,p_list_item_link_text=>'nvl()'
 ,p_list_item_link_target=>'f?p=&APP_ID.:27:&SESSION.::&DEBUG.::P27_FUNCTION:NVL:'
@@ -44,7 +44,7 @@ wwv_flow_imp_shared.create_list_item(
 ,p_list_item_current_language=>'PLSQL'
 );
 wwv_flow_imp_shared.create_list_item(
- p_id=>wwv_flow_imp.id(1304841485752229008)
+ p_id=>wwv_flow_imp.id(1309887426497170893)
 ,p_list_item_display_sequence=>40
 ,p_list_item_link_text=>'nvl2()'
 ,p_list_item_link_target=>'f?p=&APP_ID.:27:&SESSION.::&DEBUG.::P27_FUNCTION:NVL2:'
@@ -53,7 +53,7 @@ wwv_flow_imp_shared.create_list_item(
 ,p_list_item_current_language=>'PLSQL'
 );
 wwv_flow_imp_shared.create_list_item(
- p_id=>wwv_flow_imp.id(1304841766459229008)
+ p_id=>wwv_flow_imp.id(1309887707204170893)
 ,p_list_item_display_sequence=>50
 ,p_list_item_link_text=>'coalesce()'
 ,p_list_item_link_target=>'f?p=&APP_ID.:27:&SESSION.::&DEBUG.::P27_FUNCTION:COALESCE:'
@@ -62,7 +62,7 @@ wwv_flow_imp_shared.create_list_item(
 ,p_list_item_current_language=>'PLSQL'
 );
 wwv_flow_imp_shared.create_list_item(
- p_id=>wwv_flow_imp.id(1304845882314237848)
+ p_id=>wwv_flow_imp.id(1309891823059179733)
 ,p_list_item_display_sequence=>60
 ,p_list_item_link_text=>'replace()'
 ,p_list_item_link_target=>'f?p=&APP_ID.:27:&SESSION.::&DEBUG.::P27_FUNCTION:REPLACE:'
@@ -71,7 +71,7 @@ wwv_flow_imp_shared.create_list_item(
 ,p_list_item_current_language=>'PLSQL'
 );
 wwv_flow_imp_shared.create_list_item(
- p_id=>wwv_flow_imp.id(1304846082724237848)
+ p_id=>wwv_flow_imp.id(1309892023469179733)
 ,p_list_item_display_sequence=>70
 ,p_list_item_link_text=>'trim()'
 ,p_list_item_link_target=>'f?p=&APP_ID.:27:&SESSION.::&DEBUG.::P27_FUNCTION:TRIM:'

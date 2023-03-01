@@ -7,13 +7,13 @@ wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2022.10.07'
 ,p_release=>'22.2.0'
 ,p_default_workspace_id=>3211241
-,p_default_application_id=>105
-,p_default_id_offset=>5008810653734757
+,p_default_application_id=>106
+,p_default_id_offset=>10054751398676642
 ,p_default_owner=>'TESTING'
 );
 wwv_flow_imp_shared.create_install_script(
- p_id=>wwv_flow_imp.id(1305057957584591289)
-,p_install_id=>wwv_flow_imp.id(2553552358676817937)
+ p_id=>wwv_flow_imp.id(1310103898329533174)
+,p_install_id=>wwv_flow_imp.id(2558598299421759822)
 ,p_name=>'Pipelined Function Package'
 ,p_sequence=>60
 ,p_script_type=>'INSTALL'
@@ -258,8 +258,8 @@ wwv_flow_imp_shared.create_install_script(
 '/'))
 );
 wwv_flow_imp_shared.create_install_object(
- p_id=>wwv_flow_imp.id(1667377955060401509)
-,p_script_id=>wwv_flow_imp.id(1305057957584591289)
+ p_id=>wwv_flow_imp.id(1672423895805343394)
+,p_script_id=>wwv_flow_imp.id(1310103898329533174)
 ,p_object_owner=>'#OWNER#'
 ,p_object_type=>'PACKAGE'
 ,p_object_name=>'EBA_DEMO_IR_PKG'

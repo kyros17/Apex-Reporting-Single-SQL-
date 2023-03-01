@@ -7,12 +7,12 @@ wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2022.10.07'
 ,p_release=>'22.2.0'
 ,p_default_workspace_id=>3211241
-,p_default_application_id=>105
-,p_default_id_offset=>5008810653734757
+,p_default_application_id=>106
+,p_default_id_offset=>10054751398676642
 ,p_default_owner=>'TESTING'
 );
 wwv_flow_imp_shared.create_plugin(
- p_id=>wwv_flow_imp.id(1324411167356828513)
+ p_id=>wwv_flow_imp.id(1329457108101770398)
 ,p_plugin_type=>'REGION TYPE'
 ,p_name=>'COM.ORACLE.APEX.DISPLAY_SOURCE'
 ,p_display_name=>'Source Display'
@@ -105,8 +105,8 @@ wwv_flow_imp_shared.create_plugin(
 ,p_version_identifier=>'5.0.1'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(613863754480053866)
-,p_plugin_id=>wwv_flow_imp.id(1324411167356828513)
+ p_id=>wwv_flow_imp.id(618909695224995751)
+,p_plugin_id=>wwv_flow_imp.id(1329457108101770398)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>1
 ,p_display_sequence=>10
@@ -117,8 +117,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter the static ID as defined in the target region''s attributes section.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(613864127985053867)
-,p_plugin_id=>wwv_flow_imp.id(1324411167356828513)
+ p_id=>wwv_flow_imp.id(618910068729995752)
+,p_plugin_id=>wwv_flow_imp.id(1329457108101770398)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>2
 ,p_display_sequence=>20

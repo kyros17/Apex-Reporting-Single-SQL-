@@ -1,14 +1,14 @@
 prompt --application/shared_components/files/fs_sprite_png
 begin
 --   Manifest
---     APP STATIC FILES: 105
+--     APP STATIC FILES: 106
 --   Manifest End
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2022.10.07'
 ,p_release=>'22.2.0'
 ,p_default_workspace_id=>3211241
-,p_default_application_id=>105
-,p_default_id_offset=>5008810653734757
+,p_default_application_id=>106
+,p_default_id_offset=>10054751398676642
 ,p_default_owner=>'TESTING'
 );
 wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;
@@ -45,7 +45,7 @@ wwv_flow_imp.g_varchar2_table(30) := '06C82E121B1D905928265FBD7DF4EE2C7B0E7C759C
 wwv_flow_imp.g_varchar2_table(31) := '1498D08C676B65E39483C1119AC1604233184C68068309CD604233184C68068309CD6030A1190C26348309CD6030A1190C263483C184663098D00C263483C184663098D00C06139AC16042339E0BFC27C000B7209D01095C2F7C0000000049454E44AE42';
 wwv_flow_imp.g_varchar2_table(32) := '6082';
 wwv_flow_imp_shared.create_app_static_file(
- p_id=>wwv_flow_imp.id(948278383665024752)
+ p_id=>wwv_flow_imp.id(953324324409966637)
 ,p_file_name=>'fs-sprite.png'
 ,p_mime_type=>'image/png'
 ,p_file_content => wwv_flow_imp.varchar2_to_blob(wwv_flow_imp.g_varchar2_table)

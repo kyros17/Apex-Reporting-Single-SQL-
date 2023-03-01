@@ -7,17 +7,17 @@ wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2022.10.07'
 ,p_release=>'22.2.0'
 ,p_default_workspace_id=>3211241
-,p_default_application_id=>105
-,p_default_id_offset=>5008810653734757
+,p_default_application_id=>106
+,p_default_id_offset=>10054751398676642
 ,p_default_owner=>'TESTING'
 );
 wwv_flow_imp_shared.create_list(
- p_id=>wwv_flow_imp.id(1304775788613414507)
+ p_id=>wwv_flow_imp.id(1309821729358356392)
 ,p_name=>'APEX Advanced Techniques'
 ,p_list_status=>'PUBLIC'
 );
 wwv_flow_imp_shared.create_list_item(
- p_id=>wwv_flow_imp.id(1304775986024414507)
+ p_id=>wwv_flow_imp.id(1309821926769356392)
 ,p_list_item_display_sequence=>10
 ,p_list_item_link_text=>'10. Reporting from APEX Collections'
 ,p_list_item_link_target=>'f?p=&APP_ID.:38:&SESSION.::&DEBUG.:RP,38:::'
