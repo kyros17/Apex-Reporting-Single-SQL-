@@ -79,7 +79,7 @@ wwv_flow_imp_page.create_page(
 ,p_protection_level=>'C'
 ,p_page_component_map=>'13'
 ,p_last_updated_by=>'IZRI'
-,p_last_upd_yyyymmddhh24miss=>'20230301112749'
+,p_last_upd_yyyymmddhh24miss=>'20230302135625'
 );
 wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(1239367360549321778)
@@ -89,7 +89,7 @@ wwv_flow_imp_page.create_page_plug(
 ,p_plug_display_sequence=>10
 ,p_plug_grid_column_span=>8
 ,p_plug_grid_column_css_classes=>'col-sm-12'
-,p_plug_source=>'<p>This application highlights the reporting capabilities of Oracle APEX.  Use this application to better understand the native and declarative reporting functionality of APEX and how to write simple and advanced SQL.</p>'
+,p_plug_source=>'<p>IZRI MADE CHANGES HERE</p>'
 ,p_plug_query_options=>'DERIVED_REPORT_COLUMNS'
 ,p_attribute_01=>'N'
 ,p_attribute_02=>'HTML'
@@ -107,7 +107,7 @@ wwv_flow_imp_page.create_page_plug(
 );
 wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(2138424222122274466)
-,p_plug_name=>'&APP_NAME.'
+,p_plug_name=>'&APP_NAME. Changed by Iz'
 ,p_region_template_options=>'#DEFAULT#'
 ,p_plug_template=>wwv_flow_imp.id(1587332857993120506)
 ,p_plug_display_sequence=>10
