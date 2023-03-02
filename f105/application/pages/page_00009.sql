@@ -13,20 +13,19 @@ wwv_flow_imp.component_begin (
 );
 wwv_flow_imp_page.create_page(
  p_id=>9
-,p_tab_set=>'TS1'
-,p_name=>'Use Cases'
+,p_name=>'Use Cases Made Changes by Yaya'
 ,p_alias=>'USE-CASES'
-,p_step_title=>'Use Cases'
+,p_step_title=>'Use Cases Made Changes by Yaya'
 ,p_reload_on_submit=>'A'
 ,p_warn_on_unsaved_changes=>'N'
 ,p_autocomplete_on_off=>'ON'
 ,p_step_template=>wwv_flow_imp.id(1587320763124120474)
 ,p_page_template_options=>'#DEFAULT#'
-,p_nav_list_template_options=>'#DEFAULT#'
 ,p_protection_level=>'C'
 ,p_help_text=>'No help is available for this page.'
 ,p_page_component_map=>'06'
-,p_last_upd_yyyymmddhh24miss=>'20210301102626'
+,p_last_updated_by=>'IZRI'
+,p_last_upd_yyyymmddhh24miss=>'20230302140646'
 );
 wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(1314437185774953781)
