@@ -19,7 +19,7 @@ wwv_flow_imp_shared.create_list(
 wwv_flow_imp_shared.create_list_item(
  p_id=>wwv_flow_imp.id(2897109213820506007)
 ,p_list_item_display_sequence=>10
-,p_list_item_link_text=>'Drill Down to Interactive Report'
+,p_list_item_link_text=>'Drill Down to Interactive Report Edit by Yaya'
 ,p_list_item_link_target=>'f?p=&APP_ID.:6:&SESSION.::&DEBUG.:RP:::'
 ,p_list_item_icon=>'fa-level-down'
 ,p_list_text_01=>'Includes drill down links from one interactive report to another.'

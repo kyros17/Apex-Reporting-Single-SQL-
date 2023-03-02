@@ -58,7 +58,7 @@ wwv_flow_imp.create_flow(
 ,p_substitution_string_02=>'GETTING_STARTED_URL'
 ,p_substitution_value_02=>'http://www.oracle.com/technetwork/developer-tools/apex/index.html'
 ,p_last_updated_by=>'IZRI'
-,p_last_upd_yyyymmddhh24miss=>'20230301112749'
+,p_last_upd_yyyymmddhh24miss=>'20230302141647'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>10
 ,p_print_server_type=>'INSTANCE'
