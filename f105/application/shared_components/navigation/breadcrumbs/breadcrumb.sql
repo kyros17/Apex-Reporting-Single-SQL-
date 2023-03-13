@@ -193,7 +193,7 @@ wwv_flow_imp_shared.create_menu_option(
 wwv_flow_imp_shared.create_menu_option(
  p_id=>wwv_flow_imp.id(1335099286998427771)
 ,p_parent_id=>0
-,p_short_name=>'SQL Examples'
+,p_short_name=>'SQL Examples Changed by Hanan'
 ,p_link=>'f?p=&APP_ID.:39:&SESSION.::&DEBUG.:::'
 ,p_page_id=>39
 );
